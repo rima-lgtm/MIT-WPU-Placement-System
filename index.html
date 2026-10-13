@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT-WPU Placement System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#jobs">Jobs</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#register">Register</a>
+</nav>
+    <h1>MIT-WPU Student Placement Management System</h1>
+    <p>Welcome to our student placement portal!</p>
+    
+<section id="jobs">
+    <h2>Latest Job Opportunities</h2>
+
+    <div class="job-card">
+        <h3>Cloud Support Associate</h3>
+        <p>Company: Example Cloud Technologies</p>
+        <p>Skills: AWS, Linux, Networking</p>
+        
+<button onclick="showJobDetails('Cloud Support Associate')">
+    View Details
+</button>
+    </div>
+
+    <div class="job-card">
+        <h3>Junior Web Developer</h3>
+        <p>Company: Example Web Solutions</p>
+        <p>Skills: HTML, CSS, JavaScript</p>
+        
+
+<button onclick="showJobDetails('Junior Web Developer')">
+    View Details
+</button>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Our Portal</h2>
+    <p>
+        Our Student Placement Management System helps students
+        explore job opportunities and prepare for placements.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>MIT-WPU Student Placement Management System</p>
+    <p>Email: placements@example.com</p>
+    <p>Note: This is a sample contact email for your project.</p>
+</section>
+
+<section id="register">
+    <h2>Student Registration</h2>
+
+    <form id="registrationForm">
+        <label for="studentName">Full Name:</label>
+        <input type="text" id="studentName"
+               placeholder="Enter your full name" required>
+
+        <label for="studentEmail">Email:</label>
+        <input type="email" id="studentEmail"
+               placeholder="Enter your email" required>
+
+        <label for="studentCourse">Course:</label>
+        <input type="text" id="studentCourse"
+               placeholder="e.g. BCS Cloud Computing" required>
+
+        <label for="studentSkills">Skills:</label>
+        <input type="text" id="studentSkills"
+               placeholder="e.g. AWS, HTML, JavaScript" required>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #173b70;
+    margin-top: 100px;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+}
+
+
+nav {
+    background-color: #173b70;
+    padding: 15px;
+    margin: -40px -40px 0 -40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b8d7ff;
+}
+
+#jobs {
+    margin-top: 50px;
+}
+
+.job-card {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.job-card h3 {
+    color: #173b70;
+}
+
+button {
+    background-color: #173b70;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+
+#jobs {
+    margin-top: 50px;
+}
+
+.job-card {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.job-card h3 {
+    color: #173b70;
+}
+
+button {
+    background-color: #173b70;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+#about {
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #173b70;
+}     
+
+
+
+<section id="register">
+    <h2>Student Registration</h2>
+
+    <form id="registrationForm">
+        <label for="studentName">Full Name:</label>
+        <input type="text" id="studentName"
+               placeholder="Enter your full name" required>
+
+        <label for="studentEmail">Email:</label>
+        <input type="email" id="studentEmail"
+               placeholder="Enter your email" required>
+
+        <label for="studentCourse">Course:</label>
+        <input type="text" id="studentCourse"
+               placeholder="e.g. BCS Cloud Computing" required>
+
+        <label for="studentSkills">Skills:</label>
+        <input type="text" id="studentSkills"
+               placeholder="e.g. AWS, HTML, JavaScript" required>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
